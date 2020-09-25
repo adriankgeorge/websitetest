@@ -1,0 +1,74 @@
+# Site settings
+
+title: Williams Lab
+email: jwwilliams1@wisc.edu
+url: https://williamspaleolab.github.io
+description: "Paleoecology - Paleoclimatology - Global Climate Change - Quaternary Environments."
+
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#333A56'
+  primary-light: '#F7F5E6'
+  links: '#52658F'
+
+# Footer settings
+footer: Williams Paleo Lab
+
+# # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# social:
+#   - title: twitter
+#     url: https://twitter.com/SBootstrap
+#   - title: facebook
+#     url:
+#   - title: stack-overflow
+#     url: http://stackoverflow.com/questions/tagged/jekyll
+#   - title: bitbucket
+#     url: http://bitbucket.org/jekyll
+#   - title: github
+#     url: https://github.com/WilliamsPaleoLab/startbootstrap
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+## this is the directory we serve from
+baseurl: ""
+
+# gems: ['jekyll/scholar']
+
+##People
+collections:
+  people:
+    output: true
+    permalink: /people/:path/
+
+
+
+# scholar:
+#   style: apa
+#   locale: en
+#
+#   sort_by: none
+#   order: ascending
+#
+#   group_by: none
+#   group_order: ascending
+#
+#   source: ./_bibliography
+#   bibliography: bibliography.bib
+#   bibliography_template: "{{reference}}"
+#
+#   replace_strings: true
+#   join_strings:    true
+#
+#   use_raw_bibtex_entry: true
+#   bibtex_filters:
+#   - superscript
+#   - latex
+#
+#   details_dir:    bibliography
+#   details_layout: bibtex.html
+#   details_link:   Details
+#
+#   query: "@*"
