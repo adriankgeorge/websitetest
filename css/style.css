@@ -1,0 +1,76 @@
+/* Home page styling*/
+.jumbotron-home {
+    padding-top: 5%;
+    background-color: #b2ccaf;
+}
+
+.home-photo-container{
+    padding-bottom: 5%
+}
+
+/* General page header styling */
+.all-page-header {
+    text-align: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+}
+
+/* Research page styling */
+.section-container {
+    padding-top: 2%
+}
+
+.paragraph {
+    text-align: left;
+}
+
+/* Portfolio page styling*/
+.portfolio-thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-item {
+    text-align: center;
+
+}
+
+.portfolio-item-title {
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.portfolio-subheader {
+    padding-bottom: 1%
+}
+
+/* O'Keeffe page styling */
+
+#map-container {
+    position: relative;
+    margin: auto;
+    height: 600px;
+    width: 80%;
+    padding: 2%;
+}
+
+#map {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+/*subheader styling*/
+.sub-header {
+    text-align: center;
+    padding: 3%;
+    padding-bottom: 2%
+}
+
+.pic-caption {
+    text-align: center;
+    line-height: normal;
+    padding-bottom: 1%
+}
