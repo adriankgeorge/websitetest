@@ -10,41 +10,6 @@
 
 <body>
     <div class="container port-container">
-        <!-- <?php
-        //Columns must be a factor of 12 (1,2,3,4,6,12)
-        $numOfCols = 3;
-        $rowCount = 0;
-        $bootstrapColWidth = 12 / $numOfCols;
-        foreach ($rows as $row){
-          if($rowCount % $numOfCols == 0) { ?> <div class="row"> <?php }
-            $rowCount++; ?>
-                <div class="col-md-<?php echo $bootstrapColWidth; ?>">
-                    <div class="thumbnail">
-                        <img src="assets/AnnaPhoto.png">
-                    </div>
-                </div>
-        <?php
-            if($rowCount % $numOfCols == 0) { ?> </div> <?php } } ?>
- -->
-
-            <!-- <?-- <?php
-
-        $numberOfColumns = 3;
-        $bootstrapColWidth = 12 / $numberOfColumns ;
-
-        $arrayChunks = array_chunk($items, $numberOfColumns);
-        foreach($arrayChunks as $items) {
-            echo '<div class="row">';
-            foreach($items as $item) {
-                echo '<div class="col-md-'.$bootstrapColWidth.'">';
-                // your item
-                <div class="thumbnail">
-                    <img src="assets/AnnaPhoto.png">
-                echo '</div>';
-            }
-            echo '</div>';
-        }
-    ?> -->
 
     <div class="row">
         {% for person in alumni  %} <!-- iterate through the matching alums -->
@@ -89,7 +54,7 @@
   </div>
 
 
-    <div class="row">
+    <!-- <div class="row">
         <?php
     foreach ($rows as $row){
 ?>
@@ -100,8 +65,42 @@
                 </div>
             </div>
         }
-    </div>
+    </div> -->
+    <!-- <?php
+    //Columns must be a factor of 12 (1,2,3,4,6,12)
+    $numOfCols = 3;
+    $rowCount = 0;
+    $bootstrapColWidth = 12 / $numOfCols;
+    foreach ($rows as $row){
+      if($rowCount % $numOfCols == 0) { ?> <div class="row"> <?php }
+        $rowCount++; ?>
+            <div class="col-md-<?php echo $bootstrapColWidth; ?>">
+                <div class="thumbnail">
+                    <img src="assets/AnnaPhoto.png">
+                </div>
+            </div>
+    <?php
+        if($rowCount % $numOfCols == 0) { ?> </div> <?php } } ?>
+-->
 
+        <!-- <?-- <?php
+
+    $numberOfColumns = 3;
+    $bootstrapColWidth = 12 / $numberOfColumns ;
+
+    $arrayChunks = array_chunk($items, $numberOfColumns);
+    foreach($arrayChunks as $items) {
+        echo '<div class="row">';
+        foreach($items as $item) {
+            echo '<div class="col-md-'.$bootstrapColWidth.'">';
+            // your item
+            <div class="thumbnail">
+                <img src="assets/AnnaPhoto.png">
+            echo '</div>';
+        }
+        echo '</div>';
+    }
+?> -->
 
     </div>
 </body>
